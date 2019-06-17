@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #9FDBD1;
+  font-family: Tahoma;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+}
+
+.title {
+  font-size: 250%;
+  color: #121258;
+  margin: 10px;
+}
+
+.sub-title {
+  font-size: 120%;
+  color: #121258;
+  margin-bottom: 20px;
+}
+
+button {
+  width: 200px;
+  font-size: 120%;
+  font-style: italic;
+  color: #121258;
+  background-color: #FFC038;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.nickname {
+  font-size: 200%;
+  color: #f26768;
+}
+
+@media screen and (max-width: 700px) {
+  .title {
+    font-size: 180%;
+  }
+}
